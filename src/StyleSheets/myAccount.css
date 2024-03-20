@@ -1,0 +1,73 @@
+.about_me {
+    width: 96%;
+    height: auto;
+    padding: 32px;
+    border-radius: 24px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+}
+
+.user_information {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    padding: 24px 4vw 24px 4vw;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.content_wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    row-gap: 8px;
+}
+
+.headers_interests {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    padding-left: 4vw;
+    align-items: center;
+}
+
+.information_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 28px;
+}
+
+.image_content {
+    width: 50px;
+    height: 80px;
+}
+
+.image_content_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.margin_button {
+    margin-top: 8px;
+}

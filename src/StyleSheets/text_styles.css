@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: Raleway, serif;
+    src: url('../fonts/static/Raleway-Regular.ttf') format('truetype');
+    src: url('../fonts/static/Raleway-Medium.ttf') format('truetype');
+    src: url('../fonts/static/Raleway-Bold.ttf') format('truetype');
+}
+
+.header_bold {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    color: #212121;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+.header_thin {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #212121;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.add_interests {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-align: left;
+    color: rgba(25, 118, 210, 1);
+}
+
+.header_section {
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #212121;
+}
+
+.empty_text {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #90A4AE;
+}
+
+.cards_text {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 32px;
+    user-select: none;
+    touch-action: none;
+    line-height: 1.2;
+}

@@ -1,0 +1,68 @@
+.interests_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 16px;
+    align-content: center;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    width: 100%;
+}
+
+.interests_rectangle {
+    display: flex;
+    width: 96%;
+    padding: 16px 24px 16px 24px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+}
+
+.interests_gap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 16px;
+}
+
+.interests_text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    flex: 1;
+    align-items: center;
+    word-break: break-word;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    flex: 0 0 36px;
+}
+
+.svg_smiles {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.menu_svg{
+    width: 36px;
+    height: 36px;
+}
+
+.overlayRectangle {
+    display: flex;
+    position: absolute;
+    width: 280px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 16px 24px;
+    gap: 32px;
+    top: 0;
+    right: -75px;
+    transform: translateX(-50%);
+    z-index: 10;
+    box-shadow: 0 0 6px 0 #00000040;
+}

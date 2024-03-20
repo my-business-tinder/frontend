@@ -1,0 +1,29 @@
+.main_part_chats {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.main_part {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    justify-content: center;
+    padding-left: 4vw;
+    margin-bottom: 4rem;
+    padding-bottom: 3vh;
+}
+
+.person_page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: calc(4rem + 3vh);
+    row-gap: 32px;
+    justify-content: center;
+}

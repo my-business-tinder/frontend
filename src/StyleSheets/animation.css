@@ -1,0 +1,21 @@
+@keyframes swipeLeft {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+.greySquare {
+    width: 177px;
+    height: 128px;
+    padding: 0 24px;
+    background-color: grey;
+    display: none; /* Initially hidden */
+    position: absolute;
+    right: 0;
+    top: 0;
+}

@@ -1,0 +1,28 @@
+.empty_search {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.outer_container {
+    display: flex;
+    align-items: center;
+    width: 102px;
+    height: 102px;
+    position: relative;
+}
+
+.magnifier {
+    z-index: 1;
+}
+
+.inner_image {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    top: -8px;
+    left: -44px;
+}
