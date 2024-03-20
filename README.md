@@ -1,5 +1,6 @@
 # Проект “Деловой тиндер”
-Сервис поиска единомышленников. Frontend часть
+Сервис поиска единомышленников. 
+Frontend часть
 Презентация проекта: https://docs.google.com/presentation/d/1-bEay2VK1FiSMzHUgXwvpS-G2Rzpjjl08BiEH6ixYC4/edit?usp=sharing
 
 ## Установка:
